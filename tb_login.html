@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<style type="text/css">
+			#top{width:100%;height:30px;line-height:30px;}
+			#top span{width:300px;height:30px;display: block;background:#92B8B1;margin:0 auto;}
+		</style>
+	</head>
+	<body>
+		
+		<div id="top">
+			<span></span>
+		</div>
+				<form id="loginbox">
+					<input type="text" name="uname" placeholder="请输入用户名"/>
+					<input type="password" name="upwd" placeholder="请输入密码"/>
+				<a class="login" href="javascript:;">登录</a>
+				</form>
+		<div id="notice">
+			
+		</div>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script>
+	$(function(){
+		var uname = sessionStorage['LoginName'];
+		if(uname){
+			$('#top span').html('欢迎回来：'+uname);
+		}
+	})
+
+		$('.login').click(function(){
+			var uname=$("[name='uname']").val();
+			var upwd=$("[name='upwd']").val();
+  			console.log("ok");
+//			var inputData = $('#loginbox').serialize();
+		  //异步提交请求，进行验证
+			$.ajax({
+				type: 'POST',							
+				url: 'tb_login.php',
+				data: {"uname":uname, "upwd":upwd},
+//				data:inputData,
+				success: function(txt, msg, xhr){
+					if(txt==='err'){  //用户名或密码错误
+						$('#notice').html('用户名或密码错误！请重试！');
+					}else if(txt==='ok'){   //登录成功					
+						
+						//loginName = uname; //把登录用户名保存到全局
+						sessionStorage.setItem('LoginName', uname);
+						var i=1;
+//						setTimeout(function(i){
+//							console.log("oo");				
+//							
+//						},5000);
+					var timer=setInterval(function(){	
+							$('#top span').html('欢迎回来：'+uname);
+							$('#notice').html(i+'秒后跳转至淘宝首页');
+							i++;
+							if(i>5)
+							{
+								clearInterval(timer);
+								location.href="taobao.html";
+							}
+						},1000);
+					
+					}else { //其它错误
+						$('#notice').html(txt);
+					}
+				}
+			});
+		});
+	</script>
+	</body>
+</html>

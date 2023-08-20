@@ -1,0 +1,3690 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="referrer" content="always"/>
+  <title>taobao</title>
+  <link rel="stylesheet" href="css/taobao.css">
+  <script src="js/jquery-1.11.3.js"></script>
+  <style>		
+  </style>
+ </head>
+ <body>
+ <!--飘雪-->
+<span id="snow"></span>
+ <!--双十一倒计时-->
+ <div id="timer">	
+ 	距离2017双11时间
+ 	<span></span>
+ 	<a></a>
+ </div>
+ <div id="floatdiv"><a href="" onclick="clo(this)">X</a></div>
+ <!--顶部菜单-->
+<div id="top_a">
+<div id="top">
+			<div  class="my_login lf">
+					<a class="la log" href="tb_login.html">亲，请登录</a>
+					<a class="la" href="#" >免费注册</a>
+					<a class="la" href="#">手机逛淘宝</a>
+			</div>
+			<ul>
+				<li class="service">
+						<a href="#" class="rt">网站导航</a>
+						<ul class="gps tx">
+							<ul>
+								<p>主题市场</p>
+								<li><a href="#">女装</a><a href="#">男装</a><a href="#">鞋靴</a><a href="#">箱包</a></li>
+								<li><a href="#">婴童</a><a href="#">美妆</a><a href="#">食品</a><a href="#">珠宝</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a><a href="#">家居</a><a href="#">百货</a></li>
+								<li><a href="#" class="col">女装</a><a href="#">男装</a><a href="#">家电</a><a href="#">游戏</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a><a href="#">房产</a><a href="#" class="col">结婚</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a><a href="#">娱乐</a><a href="#">花鸟</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a><a href="#">内衣</a><a href="#">鞋靴</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a><a href="#">内衣</a><a href="#">鞋靴</a></li>
+							</ul>
+							<ul>
+								<p>特色市场</p>
+								<li><a href="#">iFashion</a><a href="#">爱逛街</a><a href="#">美妆秀</a></li>
+								<li><a href="#" class="col">全球购</a><a href="#">腔调</a><a href="#" class="col">淘女郎</a></li>
+								<li><a href="#">果店</a><a href="#">会吃</a><a href="#">格调</a></li>
+								<li><a href="#">运动派</a><a href="#">极有家</a><a href="#">特色中国</a></li>
+								<li><a href="#" class="col">运动派</a><a href="#">极有家</a><a href="#" class="col">特色中国</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a><a href="#">内衣</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a><a href="#">内衣</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a><a href="#">内衣</a></li>
+							</ul>
+							<ul>
+								<p>阿里app</p>
+								<li><a href="#">淘宝</a><a href="#">天猫</a><a href="#">支付宝</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a><a href="#">内衣</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a><a href="#">内衣</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a><a href="#">内衣</a></li>
+								<li><a href="#" class="col">女装</a><a href="#">男装</a><a href="#">内衣</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a><a href="#">内衣</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a><a href="#" class="col">内衣</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a><a href="#">内衣</a></li>
+							</ul>
+							<ul>
+								<p>精彩推荐集</p>
+								<li><a href="#">余额宝</a><a href="#">大牌捡宝</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a></li>
+								<li><a href="#" class="col">女装</a><a href="#">男装</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a></li>
+								<li><a href="#">女装</a><a href="#" class="col">男装</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a></li>
+								<li><a href="#">女装</a><a href="#">男装</a></li>
+							</ul>
+						</ul>
+				</li>
+					<li class="service">
+							<a href="#" class="rt">联系客服</a>
+							<ul id="service_items" class="tx">
+									<li><a href="#">消费者客服</a></li>
+									<li><a href="#">卖家客服</a></li>
+							</ul>
+					</li>
+					<li class="service">
+							<a href="#"class="rt">卖家中心</a>
+							<ul id="seller" class="tx">
+									<li><a href="#">免费开店</a></li>
+									<li><a href="#">已售出的宝贝</a></li>
+									<li><a href="#">出售中的宝贝</a></li>
+									<li><a href="#">卖家服务市场</a></li>
+									<li><a href="#">卖家服务中心</a></li>
+									<li><a href="#">体检中心</a></li>
+							</ul>
+					</li>
+					<li class="service"> 
+							<a href="#"class="rt">商品分类</a>
+
+					</li>
+					<li   class="service">
+							<a href="#" class="rt">收藏夹</a>
+							<ul id="soucang" class="tx">
+									<li><a href="#">收藏的宝贝</a></li>
+									<li><a href="#">收藏的店铺</a></li>
+							</ul>
+					</li>
+					<li class="service" id="cad">	
+							<a href="#" class="rt"><i></i>购物车</a>
+							<ul id="cad_items" class="tx">
+									<li><a href="#">我的购物车</a></li>
+									<li><a href="#">他的购物车</a></li>
+							</ul>
+
+					</li >
+					<li class="service">
+							<a href="#"class="rt">我的淘宝</a>
+							<ul  id="my_taobao" class="tx">
+									<li><a href="#">已买到的宝贝</a></li>
+									<li><a href="#">我的足迹</a></li>
+							</ul>
+					</li>
+			 </ul>
+	</div>
+</div>
+<!--葡萄图片-->
+<div id="top_mages" style="width:100%;margin-top:36px;">
+	<div  style="width:1308px;margin:0 auto;" >
+		<img src="Images/top_1.jpg" alt="" style="margin-left:59px;"/>
+	</div>
+</div>
+<!--顶部logo及搜索栏-->
+<div id="top_main">
+			<p id="logo">
+				<a href="#" >
+					<img src="Images/Taobaologo.jpg" >
+				</a>
+			</p>
+			<div id="sousuo">
+						<p id="sou_baby">
+								<b id="baby">宝贝</b>
+								<b id="tianmao">天猫</b>
+								<b id="dianpu">店铺</b>
+						</p>
+						<p id="sou_input">
+								<input type="text"  placeholder="在这搜索您所要的宝贝吧，亲！" style="font:400 8px Arial"><i class="lf"></i></input>
+								<button>搜索</button>
+								<a href="#" id="gaoji">高级搜索</a>
+						</p>
+						<div  id="new">
+							<ul>
+								<li>
+										<a href="#" class="lf">新款连衣裙</a>
+								</li>
+								<li>
+										<a href="#" class="lf">四件套</a>
+								</li>
+								<li>
+										<a href="#" id="Txu" class="lf">潮流T恤</a>
+								</li>
+								<li>
+										<a href="#" class="lf">时尚女鞋</a>
+								</li>
+								<li>
+										<a href="#" class="lf">短裤</a>
+								</li>
+								<li>
+										<a href="#" class="lf">半身裙</a>
+								</li>
+								<li>
+										<a href="#" class="lf">男士外套</a>
+								</li>
+								<li>
+										<a href="#" class="lf">墙纸</a>
+								</li>
+								<li>
+										<a href="#" class="lf">行车记录仪</a>
+								</li>
+								<li>
+										<a href="#" class="lf">新款男鞋</a>
+								</li>
+								<li>
+										<a href="#" class="lf">耳机</a>
+								</li>
+								<li><a href="#" class="rt">更多></a></li>
+							</ul>
+						</div>
+			</div>
+			<div id="shouji">
+				<a>X</a>
+				<span>手机淘宝</span>
+				<b></b>				
+			</div>
+</div>
+<!--nav-导航栏-->
+<nav id="main">
+			<p>
+				<span>市场主题</span>
+				<b></b>		
+			</p>
+			<ul>
+				<li><a href="#" class="lf tianmao">天猫</a></li>
+				<li><a href="#" class="lf tianmao">聚划算</a></li>
+				<li><a href="#" class="lf tianmao">天猫超市</a></li>
+				<li><i></i><a href="#" class="lf">淘抢购</a></li>
+				<li><a href="#" class="lf">电器城</a></li>
+				<li><a href="#" class="lf">司法拍卖</a></li>
+				<li><a href="#" class="lf">中国质造</a></li>
+				<li><a href="#" class="lf">特色中国</a></li>
+				<li><a href="#" class="lf">阿里旅行</a></li>
+				<li><a href="#" class="lf">智能生活</a></li>
+				<li><a href="#" class="lf">苏宁易购</a></li>
+			</ul>
+</nav>
+
+<nav id="nav">
+<!--左侧导航菜单-->
+					<div id="main_list">
+						<ul id="list_ul" class="lf">
+							<li class="hover_list">
+								<b id="boy"></b>
+								<a href="#" class="lf check_list">女装/男装/内衣</a>
+								<s></s>
+								<div class="list_item">
+									<div class="item_left item_1">
+											<h5>
+												<b id="item_1"></b>
+												<a href="#" id="le" class="lf">潮流女装</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">卫衣</a>
+													<a href="#">薄衣外套</a>
+													<a href="#" class="col">裤子</a>
+													<a href="#">寸衫</a>
+													<a href="#" class="col">风衣</a>
+													<a href="#" class="col">阔腿裤</a>
+													<a href="#">半身裙</a>
+												</li>
+												<li>
+													<a href="#">T恤</a>
+													<a href="#" class="col">雪纺/蕾丝衫</a>
+													<a href="#" class="col">高阔腰</a>
+													<a href="#" class="col">牛仔裤</a>
+													<a href="#">短外套</a>
+													<a href="#" class="col">小西装</a>
+													<a href="#">妈妈装</a>
+													<a href="#">毛衣</a>
+												</li>
+												<li>
+													<a href="#">大码</a>
+													<a href="#" class="col">好货</a>
+													<a href="#"红人私服</a>
+													<a href="#" class="col">甜美风</a>
+													<a href="#">文艺风</a>													
+												</li>
+											</ul>
+											<h5>
+												<b id="item_2"></b>
+												<a href="#" id="le" class="lf">品牌男装</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">选型榜</a>
+													<a href="#">新品</a>
+													<a href="#" class="col">穿搭指南</a>
+													<a href="#">设计款</a>
+													<a href="#">线下大牌</a>
+													<a href="#" class="col">品质优款</a>
+													<a href="#">T恤</a>
+												</li>
+												<li>
+													<a href="#">寸衫</a>
+													<a href="#" class="col">夹克</a>
+													<a href="#">卫衣</a>
+													<a href="#">皮衣</a>
+													<a href="#">休闲裤</a>
+													<a href="#">牛彩裤</a>
+													<a href="#">运动裤</a>
+												</li>
+												<li>
+													<a href="#">九分裤</a>
+													<a href="#">阔腿裤</a>
+													<a href="#">薄外套</a>
+													<a href="#" class="col">棒球服</a>
+													<a href="#">风衣</a>
+													<a href="#" class="col">针织衫</a>
+													<a href="#">运动外套</a>
+												</li>
+												<li>
+													<a href="#">呢大衣</a>
+													<a href="#" class="col">西装</a>
+													<a href="#">Polo</a>
+													<a href="#">开衫</a>
+													<a href="#">马甲</a>
+													<a href="#">毛衣</a>
+													<a href="#">棉衣</a>
+													<a href="#">羽绒服</a>
+													<a href="#">情侣装</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_3"></b>
+												<a href="#" id="le" class="lf">时尚内衣</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">抢新品</a>
+													<a href="#">薄款</a>
+													<a href="#">性感</a>
+													<a href="#" class="col">透视</a>
+													<a href="#">抹胸</a>
+													<a href="#">文胸</a>
+													<a href="#">发育期</a>
+													<a href="#">聚拢</a>
+													<a href="#">睡衣</a>
+												</li>
+												<li>
+													<a href="#">套装</a>
+													<a href="#">胖MM</a>
+													<a href="#">连体睡衣</a>
+													<a href="#">情侣睡衣</a>
+													<a href="#">女内裤</a>
+													<a href="#" class="col">男内裤</a>
+													<a href="#">丁字裤</a>
+												</li>
+												<li>
+													<a href="#">无痕内衣</a>
+													<a href="#" class="col">丝袜</a>
+													<a href="#">棉袜</a>
+													<a href="#">打底裤</a>
+													<a href="#" class="col">美体衣</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>											
+									</div>
+									<div id="item_right" class="rt">
+											<p id="item_top"><i></i></p>
+											<p>实时推荐最适合你的宝贝</p>
+										<div class="lf clear">
+											<div class="lf " >
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>男士日系工装薄</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>秋冬新款渐变色</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>2件包邮100%纯</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>韩国ulzzang原宿</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>2016夏装新款</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="hover_list">
+								<b id="box"></b>
+								<a href="#" class="lf" >鞋靴/箱包/配件</a>
+								<s></s>
+								<div class="list_item">
+									<div class="item_left item_2" >
+											<h5>
+												<b id="item_4"></b>
+												<a href="#" id="le" class="lf">鞋靴</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">女鞋</a>
+													<a href="#">秋冬上新</a>
+													<a href="#">街头风格款</a>
+													<a href="#" class="col">抢新品</a>
+													<a href="#">新款短靴</a>
+													<a href="#">雪地靴</a>
+													<a href="#" class="col">中长靴</a>
+												</li>
+												<li>
+													<a href="#">粗跟单鞋</a>
+													<a href="#">绑带鞋</a>
+													<a href="#" class="col">四季鞋</a>
+													<a href="#">松高厚底</a>
+													<a href="#" class="col">简约平底</a>
+													<a href="#" class="col">气质高跟</a>
+													<a href="#">妈妈鞋</a>
+												</li>
+												<li>
+													<a href="#">男鞋</a>
+													<a href="#" class="col">休闲鞋</a>
+													<a href="#" class="col">秋冬新品</a>
+													<a href="#" class="col">豆豆鞋</a>
+													<a href="#">运动鞋</a>
+													<a href="#" class="col">板鞋</a>
+													<a href="#">乐福鞋</a>
+												</li>
+												<li>
+													<a href="#">正装鞋</a>
+													<a href="#" class="col">商务鞋</a>
+													<a href="#">帆布鞋</a>
+													<a href="#" class="col">布洛克</a>
+													<a href="#">爸爸鞋</a>
+													<a href="#">潮鞋</a>													
+												</li>
+											</ul>
+											<h5>
+												<b id="item_5"></b>
+												<a href="#" id="le" class="lf">箱包</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_6"></b>
+												<a href="#" id="le" class="lf">配件配饰</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>											
+									</div>
+									<div id="item_right" class="rt">
+											<p id="item_top"><i></i></p>
+											<p>实时推荐最适合你的宝贝</p>
+										<div class="lf clear">
+											<div class="lf " >
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="hover_list">
+								<b id="lin"></b>
+								<a href="#" class="lf">鞋靴/箱包/配件</a>
+								<s></s>
+								<div class="list_item">
+									<div class="item_left item_3" >
+											<h5>
+												<b id="item_7"></b>
+												<a href="#" id="le" class="lf">鞋靴</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_8"></b>
+												<a href="#" id="le" class="lf">箱包</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_9"></b>
+												<a href="#" id="le" class="lf">配件</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>											
+									</div>
+									<div id="item_right" class="rt">
+											<p id="item_top"><i></i></p>
+											<p>实时推荐最适合你的宝贝</p>
+										<div class="lf clear">
+											<div class="lf " >
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="hover_list">
+								<b id="phote"></b>
+								<a href="#" class="lf">家电/数码/手机</a>
+								<s></s>
+								<div class="list_item">
+									<div class="item_left item_4" >
+											<h5>
+												<b id="item_10"></b>
+												<a href="#" id="le" class="lf">家电</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_11"></b>
+												<a href="#" id="le" class="lf">数码</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_12"></b>
+												<a href="#" id="le" class="lf">手机</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>											
+									</div>
+									<div id="item_right" class="rt">
+											<p id="item_top"><i></i></p>
+											<p>实时推荐最适合你的宝贝</p>
+										<div class="lf clear">
+											<div class="lf " >
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="hover_list">
+								<b class="sport"></b>
+								<a href="#" class="lf">美妆/洗护/保健品</a>
+								<s style="position:relative;top:8px;left:29px;"></s>
+								<div class="list_item">
+									<div class="item_left item_5" >
+											<h5>
+												<b id="item_13"></b>
+												<a href="#" id="le" class="lf">美妆</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_14"></b>
+												<a href="#" id="le" class="lf">洗护</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_15"></b>
+												<a href="#" id="le" class="lf">保健品</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>											
+									</div>
+									<div id="item_right" class="rt">
+											<p id="item_top"><i></i></p>
+											<p>实时推荐最适合你的宝贝</p>
+										<div class="lf clear">
+											<div class="lf " >
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="hover_list">
+								<b class="sport"></b>
+								<a href="#" class="lf">珠宝/眼镜/手表</a>
+								<s></s>
+								<div class="list_item">
+									<div class="item_left item_6" >
+											<h5>
+												<b id="item_16"></b>
+												<a href="#" id="le" class="lf">珠宝</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_17"></b>
+												<a href="#" id="le" class="lf">眼镜</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_18"></b>
+												<a href="#" id="le" class="lf">手表</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>											
+									</div>
+									<div id="item_right" class="rt">
+											<p id="item_top"><i></i></p>
+											<p>实时推荐最适合你的宝贝</p>
+										<div class="lf clear">
+											<div class="lf " >
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li >
+							<li class="hover_list">
+								<b class="sport"></b>
+								<a href="#" class="lf">运动/户外/乐器</a>
+								<s></s>
+								<div class="list_item">
+									<div class="item_left item_7" >
+											<h5>
+												<b id="item_19"></b>
+												<a href="#" id="le" class="lf">运动</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_20"></b>
+												<a href="#" id="le" class="lf">户外</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_21"></b>
+												<a href="#" id="le" class="lf">乐器</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>											
+									</div>
+									<div id="item_right" class="rt">
+											<p id="item_top"><i></i></p>
+											<p>实时推荐最适合你的宝贝</p>
+										<div class="lf clear">
+											<div class="lf " >
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="hover_list">
+								<b class="sport"></b>
+								<a href="#" class="lf">游戏/动漫/影视</a>
+								<s></s>
+								<div class="list_item">
+									<div class="item_left item_8" >
+											<h5>
+												<b id="item_22"></b>
+												<a href="#" id="le" class="lf">游戏</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_23"></b>
+												<a href="#" id="le" class="lf">动漫</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_24"></b>
+												<a href="#" id="le" class="lf">影视</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>											
+									</div>
+									<div id="item_right" class="rt">
+											<p id="item_top"><i></i></p>
+											<p>实时推荐最适合你的宝贝</p>
+										<div class="lf clear">
+											<div class="lf " >
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="hover_list">
+								<b class="sport"></b>
+								<a href="#" class="lf">美食/生鲜/零食</a>
+								<s></s>
+								<div class="list_item">
+									<div class="item_left item_9" >
+											<h5>
+												<b id="item_25"></b>
+												<a href="#" id="le" class="lf">美食</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_26"></b>
+												<a href="#" id="le" class="lf">生鲜</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_27"></b>
+												<a href="#" id="le" class="lf">零食</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>											
+									</div>
+									<div id="item_right" class="rt">
+											<p id="item_top"><i></i></p>
+											<p>实时推荐最适合你的宝贝</p>
+										<div class="lf clear">
+											<div class="lf " >
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="hover_list">
+								<b class="sport"></b>
+								<a href="#" class="lf">鲜花/宠物/农贸</a>
+								<s></s>
+								<div class="list_item">
+									<div class="item_left item_10" >
+											<h5>
+												<b id="item_28"></b>
+												<a href="#" id="le" class="lf">鲜花</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_29"></b>
+												<a href="#" id="le" class="lf">宠物</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_30"></b>
+												<a href="#" id="le" class="lf">农贸</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>											
+									</div>
+									<div id="item_right" class="rt">
+											<p id="item_top"><i></i></p>
+											<p>实时推荐最适合你的宝贝</p>
+										<div class="lf clear">
+											<div class="lf " >
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="hover_list">
+								<b class="sport"></b>
+								<a href="#" class="lf">房产/装修/建材</a>
+								<s></s>
+								<div class="list_item">
+									<div class="item_left item_11" >
+											<h5>
+												<b id="item_31"></b>
+												<a href="#" id="le" class="lf">房产</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_32"></b>
+												<a href="#" id="le" class="lf">装修</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_33"></b>
+												<a href="#" id="le" class="lf">建材</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>											
+									</div>
+									<div id="item_right" class="rt">
+											<p id="item_top"><i></i></p>
+											<p>实时推荐最适合你的宝贝</p>
+										<div class="lf clear">
+											<div class="lf " >
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="hover_list">
+								<b class="sport"></b>
+								<a href="#" class="lf">家具/家饰/家纺</a>
+								<s></s>
+								<div class="list_item">
+									<div class="item_left item_12" >
+											<h5>
+												<b id="item_34"></b>
+												<a href="#" id="le" class="lf">家具</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_35"></b>
+												<a href="#" id="le" class="lf">家饰</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_36"></b>
+												<a href="#" id="le" class="lf">家纺</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>											
+									</div>
+									<div id="item_right" class="rt">
+											<p id="item_top"><i></i></p>
+											<p>实时推荐最适合你的宝贝</p>
+										<div class="lf clear">
+											<div class="lf " >
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="hover_list">
+								<b class="sport"></b>
+								<a href="#" class="lf">汽车/二手车/用品</a>
+								<s style="position:relative;top:8px;left:29px;"></s>
+								<div class="list_item">
+									<div class="item_left item_13" >
+											<h5>
+												<b id="item_37"></b>
+												<a href="#" id="le" class="lf">汽车</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#" >套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#" >90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_38"></b>
+												<a href="#" id="le" class="lf">二手车</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_39"></b>
+												<a href="#" id="le" class="lf">用品</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>											
+									</div>
+									<div id="item_right" class="rt">
+											<p id="item_top"><i></i></p>
+											<p>实时推荐最适合你的宝贝</p>
+										<div class="lf clear">
+											<div class="lf " >
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="hover_list">
+								<b class="sport"></b>
+								<a href="#" class="lf">办公/DIY/五金电子</a>
+								<s style="position:relative;top:8px;left:20px;"></s>
+								<div class="list_item">
+									<div class="item_left item_14" >
+											<h5>
+												<b id="item_40"></b>
+												<a href="#" id="le" class="lf">办公</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_41"></b>
+												<a href="#" id="le" class="lf">DIY</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_42"></b>
+												<a href="#" id="le" class="lf">五金电子</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>											
+									</div>
+									<div id="item_right" class="rt">
+											<p id="item_top"><i></i></p>
+											<p>实时推荐最适合你的宝贝</p>
+										<div class="lf clear">
+											<div class="lf " >
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="hover_list">
+								<b class="sport"></b>
+								<a href="#" class="lf">百货/餐厨/家庭保健</a>
+								<s style="position:relative;top:8px;left:15px;"></s>
+								<div class="list_item">
+									<div class="item_left item_15" >
+											<h5>
+												<b id="item_43"></b>
+												<a href="#" id="le" class="lf">百货</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_44"></b>
+												<a href="#" id="le" class="lf">餐厨</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_45"></b>
+												<a href="#" id="le" class="lf">家庭保健</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>										
+									</div>
+									<div id="item_right" class="rt">
+											<p id="item_top"><i></i></p>
+											<p>实时推荐最适合你的宝贝</p>
+										<div class="lf clear">
+											<div class="lf " >
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="hover_list">
+								<b class="sport"></b>
+								<a href="#" class="lf">学习/卡券/本地服</a>
+								<s style="position:relative;top:8px;left:29px;"></s>
+								<div class="list_item">
+									<div class="item_left item_16" >
+											<h5>
+												<b id="item_46"></b>
+												<a href="#" id="le" class="lf">学习</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#" class="col">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_47"></b>
+												<a href="#" id="le" class="lf">卡券</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>
+											<h5>
+												<b id="item_48"></b>
+												<a href="#" id="le" class="lf">本地服</a>
+												<a href="#" id="ri" class="rt">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="#" class="col">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" >90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#" class="col">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#" class="col">秋新品</a>
+													<a href="#">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#" class="col">连衣裙</a>
+													<a href="#">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+												<li>
+													<a href="#">韩版</a>
+													<a href="#">秋新品</a>
+													<a href="#" class="col">淘品牌</a>
+													<a href="#">90后潮流志</a>
+													<a href="#">连衣裙</a>
+													<a href="#" class="col">套装</a>
+													<a href="#">针织衫</a>
+												</li>
+											</ul>											
+									</div>
+									<div id="item_right" class="rt">
+											<p id="item_top"><i></i></p>
+											<p>实时推荐最适合你的宝贝</p>
+										<div class="lf clear">
+											<div class="lf " >
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+											<div class="lf">
+												<img src="Images/item_1.jpg" alt="" />
+												<a>反季清仓特价 白鸭绒轻薄羽绒服女短款立领修身大码超轻便超薄款</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<img src="Images/left.jpg" alt="">
+						</ul>	
+				</div>
+
+			<!--广告--中间和右边-->
+			<div id="banner">
+							<div class="banner_main">											
+											<div id="ad">
+												<div class="ig"><img src="Images/ad1.jpg" alt="图片资源没有" /></div>
+												<div class="ig"><img src="Images/ad2.jpg" alt="图片资源没有" /></div>
+												<div class="ig"><img src="Images/ad3.jpg" alt="图片资源没有" /></div>
+												<div class="ig"><img src="Images/ad4.jpg" alt="图片资源没有" /></div>
+												<div class="ig"><img src="Images/ad5.jpg" alt="图片资源没有" /></div>
+												<div class="ig"><img src="Images/ad6.jpg" alt="图片资源没有" /></div>
+											</div>
+											<!--<b></b>-->
+											<ul id="tab">
+												<li class="tabs bg">1</li>
+												<li class="tabs">2</li>
+												<li class="tabs">3</li>
+												<li class="tabs">4</li>
+												<li class="tabs">5</li>
+												<li class="tabs">6</li>
+											</ul>
+											<div id="but">
+												<div class="btn btn1"><</div>
+												<div class="btn btn2">></div>
+											</div>
+											<div href="#" id="ad_2">
+													<img src="Images/ad_1.png" alt="" class="ad"/>
+													<img src="Images/ad_2.png" alt="" class="ad"/>													
+											</div>
+							</div>
+							<div id="bannerBot" class="lf clear">
+								
+									<div class="ad_down" class="clear">
+											<b class="lf">天猫必逛</b>
+											<a class="lf">热门品牌，天天上天猫！</a>
+											<strong class="rt">/6</strong>
+											<i class="rt" id="go">1</i>
+									
+											<!--<p class="clear">
+													<a href="#" ><img class="lf"src="Images/left_01.jpg" alt="" /></a>
+													<a href="#" ><img class="lf"src="Images/left_02.jpg" alt="" /></a>
+													<a href="#" ><img class="lf"src="Images/left_03.jpg" alt="" /></a>
+													<a href="#" ><img class="lf"src="Images/left_04.jpg" alt="" /></a>
+													<a href="#" ><img class="lf"src="Images/left_05.jpg" alt="" /></a>
+													<a href="#" ><img class="lf"src="Images/left_06.jpg" alt="" /></a>
+											</p>-->
+											<div id="Middle" class="lf">
+												<ul id="adMiddle" class="lf">
+													<li class="lm ad_5">
+														<ul>
+															<li><img src="Images/left_01.jpg" alt="" /></li>
+															<li><img src="Images/left_02.jpg" alt="" /></li>
+															<li><img src="Images/left_03.jpg" alt="" /></li>
+															<li><img src="Images/left_04.jpg" alt="" /></li>
+															<li><img src="Images/left_05.jpg" alt="" /></li>
+															<li><img src="Images/left_06.jpg" alt="" /></li>
+														</ul>
+													</li>
+													<li class="lm ad_6">
+														<ul>
+															<li><img src="Images/left_06.jpg" alt="" /></li>
+															<li><img src="Images/left_05.jpg" alt="" /></li>
+															<li><img src="Images/left_01.jpg" alt="" /></li>
+															<li><img src="Images/left_02.jpg" alt="" /></li>
+															<li><img src="Images/left_03.jpg" alt="" /></li>
+															<li><img src="Images/left_04.jpg" alt="" /></li>
+														</ul>
+													</li>
+													<li class="lm ad_6">
+														<ul>
+															<li><img src="Images/left_06.jpg" alt="" /></li>
+															<li><img src="Images/left_05.jpg" alt="" /></li>
+															<li><img src="Images/left_03.jpg" alt="" /></li>
+															<li><img src="Images/left_02.jpg" alt="" /></li>
+															<li><img src="Images/left_04.jpg" alt="" /></li>
+															<li><img src="Images/left_01.jpg" alt="" /></li>
+														</ul>
+													</li>
+													<li class="lm ad_6">
+														<ul>
+															<li><img src="Images/left_05.jpg" alt="" /></li>
+															<li><img src="Images/left_01.jpg" alt="" /></li>
+															<li><img src="Images/left_04.jpg" alt="" /></li>
+															<li><img src="Images/left_02.jpg" alt="" /></li>
+															<li><img src="Images/left_03.jpg" alt="" /></li>
+															<li><img src="Images/left_06.jpg" alt="" /></li>
+														</ul>
+													</li>
+												</ul>
+											</div>
+								</div>
+									<div  class="lf" id="md">
+													<h4>今日热卖</h4>
+									<!--				<a href="#"><img src="Images/middle_3.jpg" alt=""></a>-->
+													<div href="#" id="ad_4">
+															<img src="Images/middle_1.jpg" alt="" class="ad2"/>
+															<img src="Images/middle_2.jpg" alt="" class="ad2"/>													
+													</div>
+									</div>
+							</div>
+			</div>
+			<div id="login">
+					<div id="login_top">
+								<p id="img"><img src="Images/right_2.jpg"/></p>
+								<p id="hi">hi！您好</p>
+								<p id="jin"><b></b><a>领淘金币抵钱 </a>&nbsp或去&nbsp<a>会员俱乐部</a></p>
+								<div id="zhu">
+									<div>
+										<a href="#" name="login">登陆</a>
+										<a href="#" name="login">注册</a>
+										<a href="#" name="login">开店</a>
+									</div>
+								</div>
+					</div>
+					<!--<img src="Images/right_1.jpg"alt="" />-->
+					<div id="login_bot">
+								<p id="login_bot_p">
+										<a href="#" class="rt">公益</a>
+										<a href="#" class="rt">安全</a>
+										<a href="#" class="rt">论坛</a>
+										<a href="#" class="rt">规则</a>
+										<a href="#" class="rt">公告</a>
+								</p>
+								<div  id="select">
+										<p id="select_a">
+												<a href="#">阿里巴巴上市两周年&nbsp马云：感谢大家的信任</a>
+										</p>
+										<p id="select_b">
+												<a href="#">阿里市值登顶亚洲第</a>&nbsp
+												<a href="#">郎平指导一行到访阿</a>
+										</p>
+								</div>
+					</div>
+					<div  id="product_list" class="lf">
+								<a href="#" id="change"><p><b></b></p>充话费</a>
+								<a href="#" id="game"><p><b></b></p>游戏</a>
+								<a href="#" id="travel"><p><b></b></p>旅行</a>
+								<a href="#" id="insurance"><p><b></b></p>保险</a>
+								<a href="#" id="lottery"><p><b></b></p>彩票</a>
+								<a href="#"id="movie"><p><b></b></p>电影</a>
+								<a href="#" id="take-out"><p><b></b></p>点外卖</a>
+								<a href="#" id="maters"><p><b></b></p>理财</a>
+								<a href="#" id="server"><p><b></b></p>找服务</a>
+								<a href="#" id="music"><p><b></b></p>音乐</a>
+								<a href="#" id="worter"><p><b></b></p>水电煤</a>
+								<a href="#" id="ticket"><p><b></b></p>火车票</a>  <!--b标签需要优化-->
+					</div>
+			</div>
+			 <!-- 底部小广告-->
+			 <div id="banner_bottom">
+				<div id="product_1" class="product">
+					<img src="Images/xiaozi_01.jpg" alt="" />
+					<div>
+						<a id="one">二次元达人</a>
+						<a id="tow">萌萌是正义</a>
+						<p>人气26100</p>
+					</div>
+				</div>
+				<div id="product_2" class="product">
+					<img src="Images/xiaozi_02.jpg" alt="" />
+					<div>
+						<a id="one">包治百病</a>
+						<a id="tow">命里都缺包啊</a>
+						<p>人气73478</p>
+					</div>
+				</div>
+				<div id="product_3" class="product">
+					<img src="Images/xiaozi_04.jpg" alt="" />
+					<div>
+						<a id="one">手表控</a>
+						<a id="tow">有它有型有范</a>
+						<p>人气37505</p>
+					</div>
+				</div>
+				<div id="product_4" class="product">
+					<img src="Images/xiaozi.jpg" alt="" />
+					<div>
+						<a id="one">小资女神</a>
+						<a id="tow">对自己好一点</a>
+						<p>人气115324</p>
+					</div>
+				</div>
+				<div id="product_5" class="product">
+					<img src="Images/xiaozi_05.jpg" alt="" />
+					<div>
+						<a id="one">气质女神</a>
+						<a id="tow">傻白甜慎入</a>
+						<p>人气111500</p>
+					</div>
+				</div>
+			 </div>
+			 			 <!--阿里app-->
+			 <div id="al_app">
+				<p>
+					<b>阿里app</b>
+					<a href="#">更多&gt;</a>
+				</p>
+				<div>
+					<a href="#" id="tao" ><img src="Images/app_32x32.png" alt="" /></a>
+					<a href="#" id="tian"><img src="Images/app2_32x32.png" alt="" /></a>
+					<a href="#" id="ju"><img src="Images/app3_32x32.png" alt="" /></a>
+					<a href="#" id="zhi"><img src="Images/app4_32x32.png" alt="" /></a>
+					<a href="#" id="wang"><img src="Images/app5_32x32.png" alt="" /></a>
+					<a href="#" id="tao"><img src="Images/app6_32x32.png" alt="" /></a>
+					<a href="#" id="tao"><img src="Images/app7_32x32.png" alt="" /></a>
+					<a href="#" id="qu"><img src="Images/app8_32x32.png" alt="" /></a>
+					<a href="#" id="yu"><img src="Images/app9_32x32.png" alt="" /></a>
+					<a href="#" id="tao"><img src="Images/app10_32x32.png" alt="" /></a>
+				</div>
+			 </div>
+			
+</nav>
+<!--产品主体-->
+<section id="sec">
+		<div id="my_list" class="lf">
+			<div class="my_title lf clear">
+				<b class="lf mygo"></b>
+				<a href="#" class="rt">更多&gt;</a>
+			</div>
+			<div id="list_new" class="rt">
+				<h3 class="rt clear">
+					<em class="lf"></em>
+					<a href="#" class="rt">更多&gt;</a>
+				</h3>
+				<div id="new_top" class="rt">
+					<ul class="rt clear">
+						<img src="Images/TB2_60x60.jpg" alt="" class="lf clear"/>
+						<h4 class="lf"><a href="#">关于敷面膜护肤那几件事，你</a></h4>
+						<p class="lf"><a href="#">关于敷面膜护肤那几件事，你了解多少？你是不是也试过抱着好几盒的面膜回家？我们都知道，面膜的精华液能滋</a></p>
+					</ul>
+					<ul class="rt clear">
+						<img src="Images/TB3_60x60.jpg" alt="" class="lf clear"/>
+						<h4 class="lf"><a href="#">双11吃土也要买的男士夹克</a></h4>
+						<p class="lf"><a href="#">双11吃土也要买的男士夹克盼星星盼月亮，一年一度的双十一终于又要来临啦，又到了大家剁手的时节了，各地商家都纷纷抛出了各种</a></p>
+					</ul>
+				</div>
+				<div class="list_right rt clear">
+					<b class="lf"></b>
+					<div class="lf clear">
+						<img src="Images/new_r01.jpg" alt="" class="lf"/>
+						<div class="lf">
+							<h3 ><a href="#">纯手工紫铜壶</a></h3>
+							<p >壶身手锤鎚目纹形态，工艺精湛优雅美观，壶身与壶嘴连接采用传统老工艺相溶</p>
+							<span href="">520&nbsp;人说好</span>
+						</div>
+					</div>
+					<div class="lf clear">
+						<img src="Images/new_r02.jpg" alt="" class="lf"/>
+						<div class="lf">
+							<h3 ><a href="#">粉色小包</a></h3>
+							<p >小巧的包身设计，无论手拿还是斜跨都可以轻松出街，展现趣味时尚态度。浅浅的粉色调，有着灯光般的柔和感，能衬得整个人温雅而不失明媚。</p>
+							<span href="">750&nbsp;人说好</span>
+						</div>
+					</div>
+					<div class="lf clear">
+						<img src="Images/new_r03.jpg" alt="" class="lf"/>
+						<div class="lf">
+							<h3 ><a href="#">[瑞典Haglofs] 户外运动软壳长裤</a></h3>
+							<p >Haglofs是目前瑞典最大的户外品牌，也是整个北欧地区最大的户外产品制造商，国内俗称火柴棍。推荐的这</p>
+							<span href="">820&nbsp;人说好</span>
+						</div>
+					</div>
+					<div class="lf clear">
+						<img src="Images/new_r04.jpg" alt="" class="lf"/>
+						<div class="lf">
+							<h3 ><a href="#">纯手工紫铜壶</a></h3>
+							<p >壶身手锤鎚目纹形态，工艺精湛优雅美观，壶身与壶嘴连接采用传统老工艺相溶</p>
+							<span href="">980&nbsp;人说好</span>
+						</div>
+					</div>
+					<div class="lf clear">
+						<img src="Images/new_r05.jpg" alt="" class="lf"/>
+						<div class="lf">
+							<h3 ><a href="#">纯手工紫铜壶</a></h3>
+							<p >壶身手锤鎚目纹形态，工艺精湛优雅美观，壶身与壶嘴连接采用传统老工艺相溶</p>
+							<span href="">5267&nbsp;人说好</span>
+						</div>
+					</div>
+					<div class="lf clear">
+						<img src="Images/new_r06.jpg" alt="" class="lf"/>
+						<div class="lf">
+							<h3 ><a href="#">纯手工紫铜壶</a></h3>
+							<p >壶身手锤鎚目纹形态，工艺精湛优雅美观，壶身与壶嘴连接采用传统老工艺相溶</p>
+							<span href="">530&nbsp;人说好</span>
+						</div>
+					</div>
+					<div class="lf clear">
+						<img src="Images/new_r07.jpg" alt="" class="lf"/>
+						<div class="lf">
+							<h3 ><a href="#">纯手工紫铜壶</a></h3>
+							<p >壶身手锤鎚目纹形态，工艺精湛优雅美观，壶身与壶嘴连接采用传统老工艺相溶</p>
+							<span href="">120&nbsp;人说好</span>
+						</div>
+					</div>
+					<div class="lf clear">
+						<img src="Images/new_r08.jpg" alt="" class="lf"/>
+						<div class="lf">
+							<h3 ><a href="#">纯手工紫铜壶</a></h3>
+							<p >壶身手锤鎚目纹形态，工艺精湛优雅美观，壶身与壶嘴连接采用传统老工艺相溶</p>
+							<span href="">75660&nbsp;人说好</span>
+						</div>
+					</div>
+					<div class="lf clear">
+						<img src="Images/new_r09.jpg" alt="" class="lf"/>
+						<div class="lf">
+							<h3 ><a href="#">纯手工紫铜壶</a></h3>
+							<p >壶身手锤鎚目纹形态，工艺精湛优雅美观，壶身与壶嘴连接采用传统老工艺相溶</p>
+							<span href="">1230&nbsp;人说好</span>
+						</div>
+					</div>
+					<div class="lf clear">
+						<img src="Images/new_r10.jpg" alt="" class="lf"/>
+						<div class="lf">
+							<h3 ><a href="#">纯手工紫铜壶</a></h3>
+							<p >壶身手锤鎚目纹形态，工艺精湛优雅美观，壶身与壶嘴连接采用传统老工艺相溶</p>
+							<span href="">5640&nbsp;人说好</span>
+						</div>						
+					</div>
+					<h4 class="lf" style="margin-top:53px;"><a href="#">换一组看看</a></h4>					
+				</div>
+				
+			</div>
+			<div class="list" class="lf" id="blu">
+				<div id="list_l">
+					<img src="Images/list_1.jpg" alt="" />
+					<ul class="lf">
+						<li><b href="#">热门Top</b></li>
+						<li><a href="#">iphone6s</a></li>
+						<li><a href="#">看片神器</a></li>
+						<li><a href="#">自拍杆</a></li>
+						<li><a href="#">智能投影仪</a></li>
+						<li><a href="#">智能手环</a></li>
+						<li><a href="#">智能手表</a></li>
+						<li><a href="#">智能路由器</a></li>
+						<li><a href="#">智能机器人</a></li>
+						<li><a href="#">制氧机</a></li>
+						<li><a href="#">榨汁机</a></li>
+					</ul>
+				</div>
+				<div id="list_2">
+					<img src="Images/my_list01.jpg" class="lf" alt="" />
+					<img src="Images/my_list02.jpg" class="lf" alt="" />
+					<div class="lf">
+						<img src="Images/my_list.jpg" class="lf" alt="" />
+						<a class="lf" id="list_blue">热门</a>
+						<p class="lf"><a href="#">遥控仿真飞鸟</a></p>						
+					</div>
+				</div>
+				<span>
+						<img src="Images/list_6.jpg" class="rt"/>
+				</span>
+				<div class="list_end">
+				    <span  class="rt" >
+						<img src="Images/tb_item05.jpg"/>
+					</span>
+					<strong>"包包"</strong>
+					<em>能治百病</em>					
+				</div>
+				<div class="list_end">
+				    <span  class="rt" >
+						<img src="Images/tb_item06.jpg"/>
+					</span>
+					<strong>帽子</strong>
+					<em>追赶时尚潮流</em>					
+				</div>
+			</div>
+			<div class="list" class="lf" id="yel">
+				<div id="list_r">
+					<img src="Images/list_2.jpg" alt="" />
+					<ul class="lf">
+						<li><b href="#">热门Top</b></li>
+						<li><a href="#">火龙果</a></li>
+						<li><a href="#">月饼</a></li>
+						<li><a href="#">鲜虾</a></li>
+						<li><a href="#">泰国榴莲</a></li>
+						<li><a href="#">芒果</a>&nbsp;<a>牛排</a></li>
+						<li><a href="#">橙子</a>&nbsp;<a>核桃</a></li>
+						<li><a href="#">新疆大枣</a></li>
+						<li><a href="#">农家蜂蜜</a></li>
+						<li><a href="#">鲜花饼</a></li>
+						<li><a href="#">苹果</a></li>
+					</ul>
+				</div>
+				<div id="list_2r" class="lf">
+					<div class="lf">
+						<img src="Images/red20.jpg" alt="" class="lf"/>
+						<div class="lf">
+							<img src="Images/red21.jpg" alt="" class="lf"/>
+							<img src="Images/red22.jpg" alt="" class="lf"/>
+						</div>	
+						<img src="Images/red23.jpg" alt="" class="rt"/>					
+					</div>
+					<div class="lf list_2r">
+							<img src="Images/red24.jpg" alt="" class="lf"/>
+							<p class="lf"><a href="#">零食礼包</a></p>
+					</div>
+					<div class="lf list_2r">
+							<img src="Images/red24.jpg" alt="" class="lf"/>
+							<p class="lf"><a href="#">葡萄酒</a></p>
+					</div>
+					<div class="lf list_2r">
+							<img src="Images/red25.jpg" alt="" class="lf"/>
+							<p class="lf"><a href="#">糕点</a></p>
+					</div>
+					<div class="lf list_2r">
+							<img src="Images/red26.jpg" alt="" class="lf"/>
+							<p class="lf"><a href="#">方便面</a></p>
+					</div>
+					<div class="lf list_2r">
+							<img src="Images/red27.jpg" alt="" class="lf"/>
+							<p class="lf"><a href="#">蜂蜜</a></p>
+					</div>
+					<div class="lf list_2r">
+							<img src="Images/red28.jpg" alt="" class="lf"/>
+							<p class="lf"><a href="#">芒果</a></p>
+					</div>
+					<div class="lf list_2r">
+							<img src="Images/red29.jpg" alt="" class="lf"/>
+							<p class="lf"><a href="#">咖啡</a></p>
+					</div>
+					<div class="lf list_2r">
+							<img src="Images/red30.jpg" alt="" class="lf"/>
+							<p class="lf"><a href="#">红枣</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="list lf" id="zi">
+				<div id="list_3">
+					<img src="Images/list_3.jpg" alt="" />
+					<ul class="lf">
+						<li><b href="#">热门Top</b></li>
+						<li><a href="#">面膜</a></li>
+						<li><a href="#">香水</a></li>
+						<li><a href="#">化妆品</a></li>
+						<li><a href="#">修复面膜</a></li>
+						<li><a href="#">洗发水</a></li>
+						<li><a href="#">口红</a>&nbsp;<a>bb霜</a></li>
+						<li><a href="#">防晒霜</a></li>
+						<li><a href="#">手工皂</a></li>
+						<li><a href="#">彩妆</a></li>
+						<li><a href="#">护肤套装</a></li>
+					</ul>
+				</div>
+				<div id="list_3r" class="lf">
+					<div class="lf">
+						<div class="lf">
+							<img src="Images/red01.jpg" alt="" class="lf"/>
+							<img src="Images/red02.jpg" alt="" class="lf"/>
+						</div>
+						<img src="Images/red03.jpg" alt="" />
+					</div>
+					<img src="Images/red04.jpg" alt="" class="rt"/>
+					<div class="lf clear">
+						<img src="Images/red07.jpg" class="lf" alt="" />
+						<a class="lf" id="list_red">活动</a>
+						<p class="lf"><a href="#">非常小店</a></p>						
+					</div>
+					<div class="list_end">
+					    <b  class="rt" >
+							<img src="Images/red05.jpg"/>
+						</b>
+						<strong><a href="#">扮靓装扮</a></strong>
+						<span>夏季新品</span>					
+					</div>
+					<div class="list_end">
+					    <b  class="rt" >
+							<img src="Images/red06.jpg"/>
+						</b>
+						<strong><a href="#">学我穿搭</a></strong>
+						<span>热门推荐</span>					
+					</div>
+				</div>							
+			</div>
+			<div class="list lf" id="org">
+				<div id="list_4">
+					<img src="Images/list_4.jpg" alt="" />
+					<ul class="lf">
+						<li><b href="#">热门Top</b></li>
+						<li><a href="#">时尚女装</a></li>
+						<li><a href="#">舒适内衣</a></li>
+						<li><a href="#">包包配饰</a></li>
+						<li><a href="#">男鞋女鞋</a></li>
+						<li><a href="#">品质男装</a></li>
+						<li><a href="#">母婴儿童</a></li>
+						<li><a href="#">日用百货</a></li>
+						<li><a href="#">美食特产</a></li>
+						<li><a href="#">数码家电</a></li>
+						<li><a href="#">美妆护肤</a></li>
+					</ul>
+				</div>
+				<div id="list_4r" class="lf">
+					<div class="lf">
+						<div class="lf">
+							<img src="Images/red10.jpg" alt="" class="lf"/>
+							<img src="Images/red11.jpg" alt="" class="lf"/>
+						</div>
+						<img src="Images/red12.jpg" alt="" />
+					</div>
+					<img src="Images/red13.jpg" alt="" class="rt"/>
+					<div class="lf clear">
+						<img src="Images/red14.jpg" class="lf" alt="" />
+						<a class="lf" id="list_red">包包</a>
+						<p class="lf"><a href="#">大牌好货特价</a></p>						
+					</div>
+					<div class="list_end">
+					    <b  class="rt" >
+							<img src="Images/red15.jpg"/>
+						</b>
+						<strong><a href="#">特惠囤</a></strong>
+						<span>好货包邮</span>					
+					</div>
+					<div class="list_end">
+					    <b  class="rt" >
+							<img src="Images/red16.jpg"/>
+						</b>
+						<strong><a href="#">潮店尖货</a></strong>
+						<span>十元包邮</span>					
+					</div>
+				</div>
+			</div>
+		<div class="lf" style="width:890px;">
+			<img src="Images/middle_ad.jpg" alt="" />
+		</div>	
+		<div class="my_title lf">
+			<b class="lf faction"></b>
+			<a href="#" class="rt">更多&gt;</a>
+		</div>
+		<div class="ifashion lf clear">
+			<div class="lf if_01">
+				<p href=""><img src="Images/ifashion.png" alt="" /></p>
+				<a href="#" class="lf f1">
+					<img src="Images/if_01.png" alt="" />
+					<span>仙女就是国际范</span>
+				</a>
+				<a class="f2 rt">
+					<img src="Images/if_02.png" alt="" />
+					<span>卡哇伊捏</span>
+				</a>
+				<a class="f2 rt">
+					<img src="Images/if_03.png" alt="" />
+					<span>条纹控</span>
+				</a>
+			</div>
+			<div class="lf if_02">
+				<p href=""><img src="Images/ifashion02.png" alt="" /></p>
+				<a class="f2 lf">
+					<img src="Images/if_04.jpg" alt="" />
+					<span>专业护目镜</span>
+				</a>
+				<a class="f2 lf">
+					<img src="Images/if_05.jpg" alt="" />
+					<span>时尚兔子包</span>
+				</a>
+				<a class="f2 lf">
+					<img src="Images/if_06.jpg" alt="" />
+					<span>飞一般的鞋</span>
+				</a>
+				<a class="f2 lf">
+					<img src="Images/if_07.jpg" alt="" />
+					<span>复古咖啡壶</span>
+				</a>
+			</div>
+			<div class="lf if_01">
+				<p href=""><img src="Images/ifashion03.png" alt="" /></p>
+				<a href="#" class="lf f1">
+					<img src="Images/if_08.jpg" alt="" />
+					<span>唇膏精选</span>
+				</a>
+				<a class="f2 rt">
+					<img src="Images/if_09.jpg" alt="" />
+					<span>最潮撩汉妆</span>
+				</a>
+				<a class="f2 rt">
+					<img src="Images/if_10.jpg" alt="" />
+					<span>美发良品</span>
+				</a>
+			</div>
+			<div class="lf if_02">
+				<p href=""><img src="Images/ifashion04.png" alt="" /></p>
+				<a class="f2 lf">
+					<img src="Images/if_11.jpg" alt="" />
+					<span>百变花样格子</span>
+				</a>
+				<a class="f2 lf">
+					<img src="Images/if_12.jpg" alt="" />
+					<span>高颜值手提包</span>
+				</a>
+				<a class="f2 lf">
+					<img src="Images/if_13.jpg" alt="" />
+					<span>麻花辫怎么扎</span>
+				</a>
+				<a class="f2 lf">
+					<img src="Images/if_14.jpg" alt="" />
+					<span>榻榻米床垫</span>
+				</a>
+			</div>
+		</div>
+		<div class="my_title lf">
+			<b class="lf home"></b>
+			<a href="#" class="rt">更多&gt;</a>
+		</div>
+		<div class="ifashion lf clear" >
+				<div class="lf if_03">
+						<p href=""><img src="Images/ifashion05.png" alt="" /></p>
+						<div class="lf">
+							<img src="Images/if_15.jpg" alt="" />
+							<h2>正宗牛肉丸</h2>
+							<p>Q弹有嚼劲</p>
+						</div>
+						<div class="lf f3">
+							<img src="Images/if_16.jpg" alt="" />
+							<h2>鲜甜石榴</h2>
+							<p>皮薄汁水甜</p>
+						</div>
+						<span>应季水果</span>
+						<span>精致糕点</span>
+						<span>全球美食</span>
+						<span>烘焙原料</span>
+						<span>麻辣一夏</span>
+						<span>生猛海鲜</span>
+				</div>
+				<div class="lf if_03">
+						<p href=""><img src="Images/ifashion06.png" alt="" /></p>
+						<div class="lf  f4">
+							<img src="Images/if_17.jpg" alt="" />
+							<p>鲜甜石榴</p>
+						</div>
+						<div class="lf  f4">
+							<img src="Images/if_18.jpg" alt="" />
+							<p>鲜甜石榴</p>
+						</div>
+						<div class="lf  f4">
+							<img src="Images/if_19.jpg" alt="" />
+							<p>鲜甜石榴</p>
+						</div>
+						<div class="lf  f4">
+							<img src="Images/if_20.jpg" alt="" />
+							<p>鲜甜石榴</p>
+						</div>
+				</div>
+				<div class="lf if_03">
+						<p href=""><img src="Images/ifashion07.png" alt="" /></p>
+						<div class="lf">
+							<img src="Images/if_21.jpg" alt="" />
+							<h2>潮牌&nbsp;手表</h2>
+							<p>rumbatime</p>
+						</div>
+						<div class="lf f3">
+							<img src="Images/if_22.jpg" alt="" />
+							<h2>热门女鞋</h2>
+							<p>开口笑</p>
+						</div>
+						<span>春天的包包</span>
+						<span>Chloe墨镜</span>
+						<span>小白鞋</span>
+						<span>水润你</span>
+						<span>压力山大.王</span>
+						<span>Gucci酒神</span>
+				</div>
+		</div>
+		
+	</div>
+	<div><img src="Images/END.png" alt="" /></div>
+</section>
+<!--固定定位_浏览过的商品-->
+<div id="guding">
+	<h6>
+		<a href="#" class="guang">我常逛的</a>
+		<a href="#" class="fection">时尚</a>
+		<a href="#" class="osc">品质</a>
+		<a href="#" class="tese">特色</a>
+		<a href="#" class="shi">实惠</a>
+		<a href="#" class="love">猜你喜欢</a>
+		<a href="#" class="top">顶部</a>
+		<a href="#" class="fan">反馈</a>
+		<a href="#" class="bao">暴恐举报</a>
+	</h6>
+</div>
+<!--弹窗-->
+<div id="msg">
+	<a id="a" onclick="moveD(this)">X</a>
+</div>
+<footer>
+		<div id="foot_top">
+			<ul id="one">
+				<li><b></b><p>消费者保障</p></li>
+				<li><a href="#">保障范围</a><a href="#">退货退款流程</a><a href="#">服务中心</a></li>
+				<li><a href="#">更多特色服务</a></li>
+			</ul>
+			<ul id="tow">
+				<li><b></b><p>新手上路</p></li>
+				<li><a href="#">新手专区</a><a href="#">收费警示</a><a href="#">交易安全</a></li>
+				<li><a href="#">24小时在线帮助</a><a href="#">免费开店</a></li>
+			</ul>
+			<ul  id="three">
+				<li><b></b><p>付款方式</p></li>
+				<li><a href="#">快捷支付</a><a href="#">信用卡</a><a href="#">余额宝</a><a href="#">蚂蚁花呗</a></li>
+				<li><a href="#">货到付款</a></li>
+			</ul>
+			<ul  id="four">
+				<li><b></b><p>淘宝特色</p></li>
+				<li><a href="#">手机淘宝</a><a href="#">信旺</a><a href="#">大众评审</a><a href="#">B格指南</a></li>
+			</ul>
+		</div>
+		<p class="foot">
+			<span><a href="#">阿里巴巴集团</a></span>
+			<span><a href="#">淘宝网</a></span>
+			<span><a href="#">天猫</a></span>
+			<span><a href="#">聚划算</a></span>
+			<span><a href="#">全球速卖通</a></span>
+			<span><a href="#">阿里巴巴国际交易市场</a></span>
+			<span><a href="#">1688</a></span>
+			<span><a href="#">阿里妈妈</a></span>
+			<span><a href="#">阿里旅行 · 去啊</a></span>
+			<span><a href="#">阿里云计算</a></span>
+			<span><a href="#">YunOS</a></span>
+			<span><a href="#">阿里通信</a></span>
+			<span><a href="#">一淘</a></span>
+			<span><a href="#">万网</a></span>
+			<span><a href="#">高德</a></span>
+			<span><a href="#">UC</a></span>
+			<a href="#">友盟</a>
+			<br />
+			<span><a href="#">虾米</a></span>
+			<span><a href="#">阿里星球</a></span>
+			<span><a href="#">来往</a></span>
+			<span><a href="#">钉钉</a></span>
+			<span><a href="#">支付宝</a></span>
+			<span><a href="#">优酷</a></span>
+			<span><a href="#">土豆</a></span>
+			<span><a href="#">阿里健康</a></span>
+			<span><a href="#">阿里影业</a></span>
+			<span><a href="#">阿里体育</a></span>
+			<a href="#">网商银行</a>
+		</p>
+		<p class="foot bott">
+			<a href="#">关于淘宝</a>
+			<a href="#">合作伙伴</a>
+			<a href="#">营销中心</a>
+			<a href="#">廉正举报</a>
+			<a href="#">联系客服</a>
+			<a href="#">开放平台</a>
+			<a href="#">诚征英才</a>
+			<a href="#">联系我们</a>
+			<a href="#">网站地图</a>
+			<a href="#">法律声明</a>
+			<span><a href="#">知识产权</a></span>
+			<em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy;2003-2016 Taobao.com 版权所有</em>
+			<br />
+			<span>网络文化经营许可证：<a href="#">浙网文[2013]0268-027号</a></span>
+			<span>增值电信业务经营许可证：<a href="#">浙B2-20080224</a></span>
+			<span>信息网络传播视听节目许可证：<a href="#">1109364号</a></span>
+			<em>互联网违法和不良信息举报电话:0571-81683755 blxx@list.alibaba-inc.com</em>
+		</p>
+		<h5>
+			<a href="#"><img src="Images/tb_bottom02.gif" alt="" /></a>
+			<a href="#" style="width:30px;background-position:0 0;"></a>
+			<a href="#" style="width:40px;background-position:-37px 0;"></a>
+			<a href="#" style="width:59px;background-position:-77px 0;"></a>
+			<a href="#" style="width:92px;background-position:-136px 0;"></a>
+			<a href="#" style="width:105px;background-position:-235px 0;"></a>
+			<a href="#" style="width:223px;background-position:-428px 0;"></a>
+			<a href="#" style="width:110px;background-position:-648px 0;"></a>
+			<a href="#" style="width:87px;background-position:-342px 0;"></a>
+			<a href="#" style="width:100px;background-position:-758px 0;"></a>
+		</h5>
+</footer>
+<script src="js/taobao2.js"></script>
+<script src="js/taobao.js"></script>
+<script src="js/taobao3.js"></script>
+<script>
+
+</script>
+</body>
+</html>
+    

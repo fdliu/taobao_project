@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">  
+  <title>taobao</title>
+  <link rel="stylesheet" href="taobao.css">
+ </head>
+ <body>
+ <!--顶部菜单-->
+<div id="top_a">
+<div id="top">
+			<p  class="lf">
+					<a href="#"  style="color:#F22E00;margin:0;">亲，请登录</a>
+					<a href="#" >免费注册</a>
+					<a href="#">手机逛淘宝</a>
+			</p>
+			<ul>
+				<li class="service">
+						<a href="" class="rt">网站导航</a>
+						<ul class="gps">
+							<ul>
+								<p>市场主题</p>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+							</ul>
+							<ul>
+								<p>市场主题</p>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+							</ul>
+							<ul>
+								<p>市场主题</p>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+								<li><a href="">女装</a><a href="">男装</a><a href="">内衣</a><a href="">鞋靴</a></li>
+							</ul>
+						</ul>
+				</li>
+					<li class="service">
+							<a href="" class="rt">联系客服</a>
+							<ul id="service_items">
+									<li><a href="">消费者客服</a></li>
+									<li><a href="">卖家客服</a></li>
+							</ul>
+					</li>
+					<li class="service">
+							<a href="#"class="rt">卖家中心</a>
+							<ul id="seller">
+									<li><a href="">免费开店</a></li>
+									<li><a href="">已售出的宝贝</a></li>
+									<li><a href="">出售中的宝贝</a></li>
+									<li><a href="">卖家服务市场</a></li>
+									<li><a href="">卖家服务中心</a></li>
+									<li><a href="">体检中心</a></li>
+							</ul>
+					</li>
+					<li class="service"> 
+							<a href="#"class="rt">商品分类</a>
+
+					</li>
+					<li   class="service">
+							<a href="#" class="rt">收藏夹</a>
+							<ul id="soucang">
+									<li><a href="">收藏的宝贝</a></li>
+									<li><a href="">收藏的店铺</a></li>
+							</ul>
+					</li>
+					<li class="service" id="cad">	
+							<a href="#" class="rt"><i></i>购物车</a>
+							<ul id="cad_items">
+									<li><a href="">我的购物车</a></li>
+									<li><a href="">他的购物车</a></li>
+							</ul>
+
+					</li >
+					<li class="service">
+							<a href="#"class="rt">我的淘宝</a>
+							<ul  id="my_taobao">
+									<li><a href="">已买到的宝贝</a></li>
+									<li><a href="">我的足迹</a></li>
+							</ul>
+					</li>
+			 </ul>
+	</div>
+</div>
+<!--葡萄图片-->
+<div id="top_mages" style="width:100%;margin-top:36px;">
+	<div  style="width:1308px;margin:0 auto;" >
+		<img src="Images/top_1.jpg" alt="" style="margin-left:59px;"/>
+	</div>
+</div>
+<!--顶部logo及搜索栏-->
+<div id="top_main">
+			<p id="logo">
+				<a href="#" >
+					<img src="Images/Taobaologo.jpg" >
+				</a>
+			</p>
+			<div id="sousuo">
+						<p id="sou_baby">
+								<b id="baby">宝贝</b>
+								<b id="tianmao">天猫</b>
+								<b id="dianpu">店铺</b>
+						</p>
+						<p id="sou_input">
+								<input type="text" value="中秋上淘宝买月饼" style="font:400 8px Arial"><button>搜索</button><a href="#" id="gaoji">高级搜索</a>
+						</p>
+						<div  id="new">
+							<ul>
+								<li>
+										<a href="#" class="lf">新款连衣裙</a>
+								</li>
+								<li>
+										<a href="#" class="lf">四件套</a>
+								</li>
+								<li>
+										<a href="#" id="Txu" class="lf">潮流T恤</a>
+								</li>
+								<li>
+										<a href="#" class="lf">时尚女鞋</a>
+								</li>
+								<li>
+										<a href="#" class="lf">短裤</a>
+								</li>
+								<li>
+										<a href="#" class="lf">半身裙</a>
+								</li>
+								<li>
+										<a href="#" class="lf">男士外套</a>
+								</li>
+								<li>
+										<a href="#" class="lf">墙纸</a>
+								</li>
+								<li>
+										<a href="#" class="lf">行车记录仪</a>
+								</li>
+								<li>
+										<a href="#" class="lf">新款男鞋</a>
+								</li>
+								<li>
+										<a href="#" class="lf">耳机</a>
+								</li>
+								<li><a href="#" class="rt">更多></a></li>
+							</ul>
+						</div>
+			</div>
+			<div id="shouji">
+				<a>X</a>
+				<span>手机淘宝</span>
+				<b></b>				
+			</div>
+</div>
+<!--nav-导航栏-->
+<nav id="main">
+			<p>
+				<span>市场主题</span>
+				<b></b>		
+			</p>
+			<ul>
+				<li><a href="" class="lf tianmao">天猫</a></li>
+				<li><a href="" class="lf tianmao">聚划算</a></li>
+				<li><a href="" class="lf tianmao">天猫超市</a></li>
+				<li><i></i><a href="" class="lf">淘抢购</a></li>
+				<li><a href="" class="lf">电器城</a></li>
+				<li><a href="" class="lf">司法拍卖</a></li>
+				<li><a href="" class="lf">中国质造</a></li>
+				<li><a href="" class="lf">特色中国</a></li>
+				<li><a href="" class="lf">阿里旅行</a></li>
+				<li><a href="" class="lf">智能生活</a></li>
+				<li><a href="" class="lf">苏宁易购</a></li>
+			</ul>
+</nav>
+
+<nav id="nav">
+<!--左侧导航菜单-->
+					<div id="main_list">
+						<ul id="list_ul" class="lf">
+							<li >
+								<b id="boy"></b>
+								<a href="" class="lf">女装/男装/内衣</a>
+								<s></s>
+								<div id="list_item">
+									<div id="item_left" >
+										<div>
+											<h5>
+												<b ></b>
+												<a href="" id="le">潮流女装</a>
+												<a href="" id="ri">更多</a>
+											</h5>
+											<ul>
+												<li>
+													<a href="">韩版</a>
+													<a href="">秋新品</a>
+													<a href="">淘品牌</a>
+													<a href="">90后潮流志</a>
+													<a href="">连衣裙</a>
+													<a href="">套装</a>
+													<a href="">针织衫</a>
+													<a href="">卫衣</a>
+												</li>
+												<li></li>
+												<li></li>
+												<li></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<b id="box"></b>
+								<a href="" class="lf">鞋靴/箱包/配件</a>
+								<s></s>
+							</li>
+							<li>
+								<b id="lin"></b>
+								<a href="" class="lf">鞋靴/箱包/配件</a>
+								<s></s>
+							</li>
+							<li>
+								<b id="phote"></b>
+								<a href="" class="lf">家电/数码/手机</a>
+								<s></s>
+							</li>
+							<li>
+								<b class="sport"></b>
+								<a href="" class="lf">美妆/洗护/保健品</a>
+								<s></s>
+							</li>
+							<li>
+								<b class="sport"></b>
+								<a href="" class="lf">珠宝/银镜/手表</a>
+								<s></s>
+							</li >
+							<li>
+								<b class="sport"></b>
+								<a href="" class="lf">运动/户外/乐器</a>
+								<s></s>
+							</li>
+							<li>
+								<b class="sport"></b>
+								<a href="" class="lf">游戏/动漫/影视</a>
+								<s></s>
+							</li>
+							<li>
+								<b class="sport"></b>
+								<a href="" class="lf">美食/生鲜/零食</a>
+								<s></s>
+							</li>
+							<li>
+								<b class="sport"></b>
+								<a href="" class="lf">美食/生鲜/零食</a>
+								<s></s>
+							</li>
+							<li>
+								<b class="sport"></b>
+								<a href="" class="lf">美食/生鲜/零食</a>
+								<s></s>
+							</li>
+							<li>
+								<b class="sport"></b>
+								<a href="" class="lf">美食/生鲜/零食</a>
+								<s></s>
+							</li>
+							<li>
+								<b class="sport"></b>
+								<a href="" class="lf">美食/生鲜/零食</a>
+								<s></s>
+							</li>
+							<li>
+								<b class="sport"></b>
+								<a href="" class="lf">美食/生鲜/零食</a>
+								<s></s>
+							</li>
+							<li>
+								<b></b>
+								<a href="" class="lf">美食/生鲜/零食</a>
+								<s></s>
+							</li>
+							<li>
+								<b></b>
+								<a href="" class="lf">美食/生鲜/零食</a>
+								<s></s>
+							</li>
+							<img src="Images/left.jpg" alt="">
+						</ul>	
+				</div>
+
+			<!--广告--中间和右边-->
+			<div id="banner">
+							<div class="banner_main">
+											<a href="" id="ad" >
+													<img src="Images/ad.jpg" alt="" />				
+											</a>
+											<b></b>
+											<ul class="lf" id="banner_ul">
+													<li id="red" class="lf">1</li>
+													<li id="green" class="lf">2</li>
+													<li id="yellow" class="lf">3</li>
+													<li id="pink" class="lf">4</li>
+													<li id="block" class="lf">5</li>
+													<li id="blue" class="lf">6</li>
+											</ul>
+											<a href="" id="ad_2">
+													<img src="Images/ad_2.jpg" alt="" class="lf"/>
+											</a>
+							</div>
+							<div class="ad_down" class="clear">
+											<b class="lf">天猫必逛</b>
+											<a class="lf">热门品牌，天天上天猫！</a>
+											<strong class="rt">/6</strong>
+											<i class="rt">1</i>
+											<p class="clear">
+													<a href="" ><img class="lf"src="Images/left_1.jpg" alt="" /></a>
+													<a href="" ><img class="lf"src="Images/left_2.jpg" alt="" /></a>
+													<a href="" ><img class="lf"src="Images/left_4.jpg" alt="" /></a>
+													<a href="" ><img class="lf"src="Images/left_1.jpg" alt="" /></a>
+													<a href="" ><img class="lf"src="Images/left_2.jpg" alt="" /></a>
+													<a href="" ><img class="lf"src="Images/left_4.jpg" alt="" /></a>
+											</p>
+							</div>
+							<div  class="lf" id="md">
+											<h4>今日热卖</h4>
+											<a href=""><img src="Images/middle_3.jpg" alt=""></a>
+							</div>
+			</div>
+			<div id="login">
+					<div id="login_top">
+								<p id="img"><img src="Images/right_2.jpg"/></p>
+								<p id="hi">hi！您好</p>
+								<p id="jin"><b></b><a>领淘金币抵钱 </a>&nbsp或去&nbsp<a>会员俱乐部</a></p>
+								<div id="zhu">
+									<div>
+										<a href="" name="login">登陆</a>
+										<a href="" name="login">注册</a>
+										<a href="" name="login">开店</a>
+									</div>
+								</div>
+					</div>
+					<!--<img src="Images/right_1.jpg"alt="" />-->
+					<div id="login_bot">
+								<p id="login_bot_p">
+										<a href="" class="rt">公益</a>
+										<a href="" class="rt">安全</a>
+										<a href="" class="rt">论坛</a>
+										<a href="" class="rt">规则</a>
+										<a href="" class="rt">公告</a>
+								</p>
+								<div  id="select">
+										<p id="select_a">
+												<a href="">阿里巴巴上市两周年&nbsp马云：感谢大家的信任</a>
+										</p>
+										<p id="select_b">
+												<a href="">阿里市值登顶亚洲第</a>&nbsp
+												<a href="">郎平指导一行到访阿</a>
+										</p>
+								</div>
+					</div>
+					<div  id="product_list" class="lf">
+								<a href="" id="change"><p><b></b></p>充话费</a>
+								<a href="" id="game"><p><b></b></p>游戏</a>
+								<a href="" id="travel"><p><b></b></p>旅行</a>
+								<a href="" id="insurance"><p><b></b></p>保险</a>
+								<a href="" id="lottery"><p><b></b></p>彩票</a>
+								<a href=""id="movie"><p><b></b></p>电影</a>
+								<a href="" id="take-out"><p><b></b></p>点外卖</a>
+								<a href="" id="maters"><p><b></b></p>理财</a>
+								<a href="" id="server"><p><b></b></p>找服务</a>
+								<a href="" id="music"><p><b></b></p>音乐</a>
+								<a href="" id="worter"><p><b></b></p>水电煤</a>
+								<a href="" id="ticket"><p><b></b></p>火车票</a>  <!--b标签需要优化-->
+					</div>
+			</div>
+			 <!-- 底部小广告-->
+			 <div id="banner_bottom">
+				<div id="product_1" class="product">
+					<img src="Images/TB1ssQINXXXXXXRXFXXXXXXXXXX-120-120.jpg_120x120.jpg" alt="" />
+					<div>
+						<a id="one">二次元达人</a>
+						<a id="tow">萌萌是正义</a>
+						<p>人气26100</p>
+					</div>
+				</div>
+				<div id="product_2" class="product">
+					<img src="Images/TB1ssQINXXXXXXRXFXXXXXXXXXX-120-120.jpg_120x120.jpg" alt="" />
+					<div>
+						<a id="one">包治百病</a>
+						<a id="tow">命里都缺包啊</a>
+						<p>人气73478</p>
+					</div>
+				</div>
+				<div id="product_3" class="product">
+					<img src="Images/TB1ssQINXXXXXXRXFXXXXXXXXXX-120-120.jpg_120x120.jpg" alt="" />
+					<div>
+						<a id="one">手表控</a>
+						<a id="tow">有它有型有范</a>
+						<p>人气37505</p>
+					</div>
+				</div>
+				<div id="product_4" class="product">
+					<img src="Images/TB1ssQINXXXXXXRXFXXXXXXXXXX-120-120.jpg_120x120.jpg" alt="" />
+					<div>
+						<a id="one">小资女神</a>
+						<a id="tow">对自己好一点</a>
+						<p>人气115324</p>
+					</div>
+				</div>
+				<div id="product_5" class="product">
+					<img src="Images/TB1VodJLXXXXXc1XVXXXXXXXXXX-180-180.png_120x120.jpg" alt="" />
+					<div>
+						<a id="one">气质女神</a>
+						<a id="tow">傻白甜慎入</a>
+						<p>人气111500</p>
+					</div>
+				</div>
+			 </div>
+			 			 <!--阿里app-->
+			 <div id="al_app">
+				<p>
+					<b>阿里app</b>
+					<a href="#">更多&gt;</a>
+				</p>
+				<div>
+					<a href="" id="tao" ><img src="Images/app_32x32.png" alt="" /></a>
+					<a href="" id="tian"><img src="Images/app2_32x32.png" alt="" /></a>
+					<a href="" id="ju"><img src="Images/app3_32x32.png" alt="" /></a>
+					<a href="" id="zhi"><img src="Images/app4_32x32.png" alt="" /></a>
+					<a href="" id="wang"><img src="Images/app5_32x32.png" alt="" /></a>
+					<a href="" id="tao"><img src="Images/app6_32x32.png" alt="" /></a>
+					<a href="" id="tao"><img src="Images/app7_32x32.png" alt="" /></a>
+					<a href="" id="qu"><img src="Images/app8_32x32.png" alt="" /></a>
+					<a href="" id="yu"><img src="Images/app9_32x32.png" alt="" /></a>
+					<a href="" id="tao"><img src="Images/app10_32x32.png" alt="" /></a>
+				</div>
+			 </div>
+			
+</nav>
+<!--产品主体-->
+<section id="sec">
+		<div id="my_list" class="lf">
+			<div id="my_title">
+				<b></b>
+				<a href="" class="rt">更多&gt;</a>
+			</div>
+			<div class="list" class="lf">
+				<div id="list_l">
+					<img src="Images/list_1.jpg" alt="" />
+					<ul class="lf">
+						<li><b href="#">热门Top</b></li>
+						<li><a href="#">iphone6s</a></li>
+						<li><a href="#">看片神器</a></li>
+						<li><a href="#">自拍杆</a></li>
+						<li><a href="#">智能投影仪</a></li>
+						<li><a href="#">智能手环</a></li>
+						<li><a href="#">智能手表</a></li>
+						<li><a href="#">智能路由器</a></li>
+						<li><a href="#">智能机器人</a></li>
+						<li><a href="#">制氧机</a></li>
+						<li><a href="#">榨汁机</a></li>
+					</ul>
+				</div>
+				<div id="list_2">
+					<img src="Images/my_list01.jpg" class="lf" alt="" />
+					<img src="Images/my_list02.jpg" class="lf" alt="" />
+					<div class="lf">
+						<img src="Images/my_list.jpg" class="lf" alt="" />
+						<a class="lf" id="list_blue">热门</a>
+						<p class="lf"><a href="#">遥控仿真飞鸟</a></p>
+						
+					</div>
+				</div>
+				<span>
+						<img src="Images/list_6.jpg" class="rt"/>
+				</span>
+				<div class="list_end">
+				    <span  class="rt" >
+						<img src="Images/list_3.jpg"/>
+					</span>
+					<strong>"包包"</strong>
+					<em>能治百病</em>
+					
+				</div>
+				<div class="list_end">
+				    <span  class="rt" >
+						<img src="Images/list_3.jpg"/>
+					</span>
+					<strong>关于书架</strong>
+					<em>我有一些好主意</em>					
+				</div>
+			</div>
+			<div class="list" class="lf">
+				<div id="list_r">
+					<img src="Images/list_2.jpg" alt="" />
+					<ul class="lf">
+						<li><b href="#">热门Top</b></li>
+						<li><a href="#">火龙果</a></li>
+						<li><a href="#">月饼</a></li>
+						<li><a href="#">鲜虾</a></li>
+						<li><a href="#">泰国榴莲</a></li>
+						<li><a href="#">芒果</a>&nbsp;<a>牛排</a></li>
+						<li><a href="#">橙子</a>&nbsp;<a>核桃</a></li>
+						<li><a href="#">新疆大枣</a></li>
+						<li><a href="#">农家蜂蜜</a></li>
+						<li><a href="#">鲜花饼</a></li>
+						<li><a href="#">苹果</a></li>
+					</ul>
+				</div>
+				<div id="list_2">
+
+				</div>
+
+				<div class="list_end">
+
+					
+				</div>
+				<div class="list_end">
+				
+				</div>
+			</div>
+
+		</div>
+</section>
+<!--固定定位_浏览过的商品-->
+<div id="guding">
+	<h5>
+		<a href="#" class="guang">我常逛的</a>
+		<a href="#" class="fection">时尚</a>
+		<a href="#" class="osc">品质</a>
+		<a href="#" class="tese">特色</a>
+		<a href="#" class="shi">实惠</a>
+		<a href="#" class="love">猜你喜欢</a>
+		<a href="#" class="top">顶部</a>
+		<a href="#" class="fan">反馈</a>
+		<a href="#" class="bao">暴恐举报</a>
+	</h5>
+</div>
+<footer  style="width:100%;height:300px;">
+		<div id="foot_top" style="width:1308px;height:107px;margin:0 auto;background:#F1F1F1;border-bottom:2px solid #FF4400;">
+			<ul id="one">
+				<li><b></b><p>消费者保障</p></li>
+				<li><a href="">保障范围</a><a href="">退货退款流程</a><a href="">服务中心</a></li>
+				<li><a href="">更多特色服务</a></li>
+			</ul>
+			<ul id="tow">
+				<li><b></b><p>新手上路</p></li>
+				<li><a href="">新手专区</a><a href="">收费警示</a><a href="">交易安全</a></li>
+				<li><a href="">24小时在线帮助</a><a href="">免费开店</a></li>
+			</ul>
+			<ul  id="three">
+				<li><b></b><p>付款方式</p></li>
+				<li><a href="">快捷支付</a><a href="">信用卡</a><a href="">余额宝</a><a href="">蚂蚁花呗</a></li>
+				<li><a href="">货到付款</a></li>
+			</ul>
+			<ul  id="four">
+				<li><b></b><p>淘宝特色</p></li>
+				<li><a href="">手机淘宝</a><a href="">信旺</a><a href="">大众评审</a><a href="">B格指南</a></li>
+			</ul>
+		</div>
+</footer>
+</body>
+</html>
+    
